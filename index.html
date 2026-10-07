@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Nome da Profissional] | Psicóloga Clínica</title>
+  <meta name="description" content="[Descrição curta com especialidade e cidade, até 160 caracteres]">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Fulana Fulaneto</a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+      <label for="menu-toggle" class="menu-button" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#abordagem">Abordagem</a>
+        <a href="#espaco">Local</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+  <div class="container hero__content">
+    <h1>Um espaço de escuta para você cuidar da sua saúde emocional</h1>
+    <p>Sou Fulana Fulaneto, psicóloga clínica em Assis-SP. Ofereço atendimento psicológico para adultos, com escuta cuidadosa, respeito ao seu tempo e sigilo profissional.</p>
+    <div class="hero__actions">
+      <a href="https://wa.me/55DDDNUMERO" class="btn btn--primary">Agendar consulta</a>
+    </div>
+  </div>
+</section>
+    <!-- ============ SOBRE ============ -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__media">
+          <div class="placeholder placeholder--portrait" role="img" aria-label="Retrato da profissional">
+            <img src="img/retrato.jpg">
+          </div>
+        </div>
+
+        <div class="about__content">
+          <h2 class="section__title section__title--left">Sobre mim</h2>
+          <p>Sou graduada em Psicologia pela UNIP, com pós-graduação em TCC. Atendo adultos que buscam apoio para lidar com ansiedade, estresse, dificuldades nos relacionamentos e momentos de mudança.</p>
+          <p>Trabalho com a Terapia Cognitivo-Comportamental (TCC), uma abordagem reconhecida pela psicologia científica. Meu trabalho é guiado pela ética, pelo respeito à singularidade de cada pessoa e pelo compromisso com um atendimento responsável.</p>
+
+          <article class="card card--soft about__areas">
+            <h3><span class="icon" aria-hidden="true">♡</span> Áreas de atuação</h3>
+            <ul>
+              <li>Ansiedade e preocupação excessiva</li>
+              <li>Estresse e sobrecarga no trabalho</li>
+              <li>Autoestima e autoconhecimento</li>
+              <li>Relacionamentos e dificuldades de comunicação</li>
+              <li>Transições de vida e tomada de decisões</li>
+              <li>Luto e perdas</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABORDAGEM ============ -->
+    <section class="section section--alt" id="abordagem">
+      <div class="container">
+        <h2 class="section__title">Abordagem</h2>
+        <p class="section__lead">Na TCC, o foco está na relação entre pensamentos, emoções e comportamentos. Conduzo o atendimento de forma colaborativa: construímos juntos os objetivos e acompanhamos o processo ao longo das sessões.</p>
+
+        <!-- Imagem de fundo de cada card: troque o caminho em --bg-image -->
+        <div class="grid grid--3">
+          <article class="card card--center card--bg" style="--bg-image: url('img/abordagem-1.jpg')">
+            <span class="icon icon--lg" aria-hidden="true">✦</span>
+            <h3>Escuta acolhedora</h3>
+            <p>Você tem um espaço seguro para falar sem julgamentos. Cada pessoa é ouvida em sua história e em seu ritmo.</p>
+          </article>
+          <article class="card card--center card--bg" style="--bg-image: url('img/abordagem-2.jpg')">
+            <span class="icon icon--lg" aria-hidden="true">♡</span>
+            <h3>Compreensão do seu funcionamento</h3>
+            <p>Exploramos como você pensa, sente e age em diferentes situações. Isso ajuda a ampliar o autoconhecimento e as possibilidades de escolha.</p>
+          </article>
+          <article class="card card--center card--bg" style="--bg-image: url('img/abordagem-3.jpg')">
+            <span class="icon icon--lg" aria-hidden="true">☺</span>
+            <h3>Ética e sigilo</h3>
+            <p>O atendimento segue o Código de Ética Profissional do Psicólogo. Tudo o que é conversado em sessão é protegido pelo sigilo profissional.</p>
+          </article>
+        </div>
+
+        <div class="card process">
+          <h3 class="process__title">Como funciona o processo terapêutico</h3>
+          <ol class="process__steps">
+            <li>
+              <span class="step-number">1</span>
+              <h4>Primeiro contato</h4>
+              <p>Você pode me chamar pelo WhatsApp ou pelo Instagram. Conversamos sobre dúvidas iniciais e combinamos o melhor dia e horário para você.</p>
+            </li>
+            <li>
+              <span class="step-number">2</span>
+              <h4>Avaliação inicial</h4>
+              <p>Na primeira sessão, você conta o que o trouxe até aqui. Eu explico como o atendimento funciona e avaliamos juntos os próximos passos.</p>
+            </li>
+            <li>
+              <span class="step-number">3</span>
+              <h4>Construção do processo</h4>
+              <p>Definimos objetivos em conjunto e organizamos o acompanhamento. O ritmo e a condução respeitam as necessidades de cada pessoa.</p>
+            </li>
+            <li>
+              <span class="step-number">4</span>
+              <h4>Sessões regulares</h4>
+              <p>Os atendimentos acontecem, em geral, uma vez por semana, com duração de 50 minutos, de forma presencial ou online. A frequência pode ser ajustada conforme cada caso.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ESPAÇO ============ -->
+    <section class="section" id="espaco">
+      <div class="container">
+        <h2 class="section__title">Conheça meu espaço</h2>
+        <p class="section__lead">Um consultório pensado para ser acolhedor, tranquilo e reservado. Também atendo online, com a mesma ética e o mesmo cuidado.</p>
+
+        <div class="carousel" data-carousel aria-roledescription="carrossel" aria-label="Fotos do espaço">
+          <button type="button" class="carousel__btn carousel__btn--prev" data-prev aria-label="Foto anterior">‹</button>
+
+          <div class="carousel__track" data-track tabindex="0">
+            
+            <figure class="carousel__slide">
+             <!-- Img 1 -->
+              <div class="placeholder placeholder--photo" role="img" aria-label="Recepção">
+                <img src="img/espaco-1.jpg">
+              </div>
+              <figcaption>
+
+              </figcaption>
+            </figure>
+            
+            <figure class="carousel__slide">
+               <!-- Img 2 -->
+              <div class="placeholder placeholder--photo" role="img" aria-label="Sala de terapia">
+                 <img src="img/espaco-2.jpg">
+              </div>
+              <figcaption>
+              </figcaption>
+            </figure>
+            
+            <figure class="carousel__slide">
+               <!-- Img 3 -->
+              <div class="placeholder placeholder--photo" role="img" aria-label="Fachada">
+                 <img src="img/espaco-3.jpg">
+              </div>
+              <figcaption>
+              </figcaption>
+            </figure>
+            
+            <figure class="carousel__slide">
+               <!-- Img 4 -->
+              <div class="placeholder placeholder--photo" role="img" aria-label="Sala de espera">
+                 <img src="img/espaco-4.jpg">
+              </div>
+              <figcaption>
+              </figcaption>
+            </figure>
+          </div>
+
+          <button type="button" class="carousel__btn carousel__btn--next" data-next aria-label="Próxima foto">›</button>
+          <div class="carousel__dots" data-dots></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section section--alt" id="contato">
+      <div class="container">
+        <h2 class="section__title">Entre em Contato</h2>
+        <p class="section__lead">Ficou com dúvidas sobre o atendimento? Escreva ou chame pelo WhatsApp. Terei prazer em conversar e orientar sobre os próximos passos.</p>
+
+        <div class="grid grid--3">
+          <article class="card card--center">
+            <span class="icon icon--lg" aria-hidden="true">☎</span>
+            <h3>Telefone / WhatsApp</h3>
+            <p>(DDD) 00000-0000</p>
+            <a href="https://wa.me/55DDDNUMERO" class="link">Chamar agora →</a>
+          </article>
+          <article class="card card--center">
+            <span class="icon icon--lg" aria-hidden="true">◎</span>
+            <h3>Instagram</h3>
+            <p>@seu.perfil</p>
+            <a href="https://instagram.com/seu.perfil" class="link">Enviar direct →</a>
+          </article>
+          <article class="card card--center">
+            <span class="icon icon--lg" aria-hidden="true">⌖</span>
+            <h3>Endereço</h3>
+            <p>[Rua, número – Bairro, Cidade – UF]</p>
+            <a href="#localizacao" class="link">Ver no mapa →</a>
+          </article>
+        </div>
+
+
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <h4>Fulana Fulaneto</h4>
+        <p>Psicóloga Clínica<br>CRP: 12/345679</p>
+        <p>Atendimento psicológico com ética, acolhimento e sigilo.</p>
+      </div>
+      <div>
+        <h4>Horários</h4>
+        <p>Segunda a sexta, das 08h as 20h</p>
+        <p>Atendimento presencial e online</p>
+      </div>
+      <div>
+        <h4>Contato rápido</h4>
+        <p>(DDD) 00000-0000</p>
+        <p>@seu.perfil</p>
+        <p>[Endereço resumido]</p>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Fulana Fulaneto – Psicóloga Clínica. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
